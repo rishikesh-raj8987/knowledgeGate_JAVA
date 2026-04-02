@@ -1,4 +1,4 @@
-package Core Java;
+package Core_Java;
 
 public class variable {
     public static void main(String[] args) {
@@ -10,5 +10,9 @@ public class variable {
         boolean isbad= false;
         long f = 2654574;
         double g =14.56564d;
+        System.out.println(a+b+c+d+e+f+g+name+isbad);
     }
 }
+
+    
+
