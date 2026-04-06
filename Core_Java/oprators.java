@@ -9,7 +9,10 @@ public class oprators {
         int a =sc.nextInt();
         System.out.println("Enter the second number");
         int b =sc.nextInt();
-        int c = a+b;
-        System.out.println("ADD =" + c);
+        int ADD = a+b;
+        int mul = a*b;
+        System.out.println("ADD =" + ADD);
+        System.out.println("Multiply"+ mul);
+
     }
 }
