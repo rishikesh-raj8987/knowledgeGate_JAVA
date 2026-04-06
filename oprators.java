@@ -1,4 +1,4 @@
-package Core_Java;
+// package Core_Java;
 
 import java.util.Scanner;
 
@@ -12,9 +12,12 @@ public class oprators {
         int ADD = a+b;
         int mul = a*b;
         float div =a/b;
+        float mod = a%b;
         System.out.println("ADD =" + ADD);
         System.out.println("Multiply = "+ mul);
         System.out.println("div = "+ div);
+        System.out.println("mod = "+mod);
+
 
 
     }
