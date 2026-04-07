@@ -1,4 +1,4 @@
-// package Core_Java;
+package Core_Java;
 
 public class ternary_operator {
     public static void main(String[] args) {
