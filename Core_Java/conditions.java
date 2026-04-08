@@ -2,12 +2,26 @@ package Core_Java;
 
 public class conditions {
     public static void main (String[] args){
-        int x = 6;
-        if(x%2 == 0){
-            System.out.println("The number is even");
-        }
-        else{
-            System.out.println("The number is odd");
+
+        //question 01 -- the number is even or odd
+//        int x = 6;
+//        if(x%2 == 0){
+//            System.out.println("The number is even");
+//        }
+//        else{
+//            System.out.println("The number is odd");
+//        }
+//        System.out.println("this is the answer");
+
+        //question 02 -- compare two number and check which is greater
+        int n1=99;
+        int n2 = 19;
+        if(n1==n2){
+            System.out.println("n1 and n2 both are equal");
+        } else if (n1>n2) {
+            System.out.println("n1 is larger:- " + n1);
+        }else{
+            System.out.println("n1 and n2 both are equal");
         }
     }
 }
