@@ -14,8 +14,8 @@ public class conditions {
 //        System.out.println("this is the answer");
 
         //question 02 -- compare two number and check which is greater
-//        int n1=9;
-//        int n2 = 9;
+       int n1=9;
+       int n2 = 9;
 //        if(n1==n2){
 //            System.out.println("n1 and n2 both are equal");
 //        }else {
