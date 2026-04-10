@@ -6,29 +6,25 @@ public class prime02 {
 
     public static void main(String[] args) {
 
-        // take a input how many time you want to check prime and input which number you
-        // want to check it is prime or not
-
         Scanner scn = new Scanner(System.in);
-        System.out.println("Enter the number how many time you want to check");
-    int t = scn.nextInt();
-        for (int i = 1; i <= t; i++) {
-        System.out.println("Enter the prime number:- ");
-        int n = scn.nextInt();
+        // WAP to print prime no between range
+        System.out.println("Enter the range of low ");
+        int low = scn.nextInt();
+        System.out.println("Enter the range of high ");
+        int high = scn.nextInt();
+        for(int i=low;i<=high;i++){
+            int count =0;
+            for(int div =2;div*div<=i;div++)
+                if(i%div==0){
+                    count++;
+                    break;
+        }
+        if(count ==0) {
+            System.out.println(i);
+        }
+        }
 
-        int count = 0;
-        for (int div = 2; div*div <= n; div++) {
-            if (n % div == 0) {
-                count++;
-            }
-        }
-        if (count == 0) {
-            System.out.println("Prime");
-        } else {
-            System.out.println("Not Prime");
-        }
-    }
-        System.out.println("Done");
+
 }
 }
-}
+
