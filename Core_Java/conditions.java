@@ -5,10 +5,10 @@ public class conditions {
 
         //question 01 -- the number is even or odd
         int x = 6;
-.       if(x%2 == 0){
-//            System.out.println("The number is even");
-//        }
-//        else{
+        if(x%2 == 0){
+           System.out.println("The number is even");
+        }
+        else{
 //            System.out.println("The number is odd");
 //        }
 //        System.out.println("this is the answer");
