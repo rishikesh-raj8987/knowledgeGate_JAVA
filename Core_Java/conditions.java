@@ -9,9 +9,9 @@ public class conditions {
            System.out.println("The number is even");
         }
         else{
-//            System.out.println("The number is odd");
-//        }
-//        System.out.println("this is the answer");
+          System.out.println("The number is odd");
+        }
+       System.out.println("this is the answer");
 
         //question 02 -- compare two number and check which is greater
        int n1=9;
