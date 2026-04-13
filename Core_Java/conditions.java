@@ -4,8 +4,8 @@ public class conditions {
     public static void main (String[] args){
 
         //question 01 -- the number is even or odd
-//        int x = 6;
-//        if(x%2 == 0){
+        int x = 6;
+.       if(x%2 == 0){
 //            System.out.println("The number is even");
 //        }
 //        else{
