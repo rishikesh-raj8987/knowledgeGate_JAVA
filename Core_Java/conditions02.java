@@ -8,7 +8,7 @@ public class conditions02 {
         Scanner sc =new Scanner(System.in);
         System.out.print("Enter the mark of Student:- ");
         int marks = sc.nextInt();
-        if(marks>90){
+        if(marks>90){                   
             System.out.println("Excellent");
         } else if (marks>80 && marks <= 90) {
             System.out.println("Good");
