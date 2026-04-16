@@ -4,14 +4,14 @@ public class conditions {
     public static void main (String[] args){
 
         //question 01 -- the number is even or odd
-//        int x = 6;
-//        if(x%2 == 0){
-//            System.out.println("The number is even");
-//        }
-//        else{
-//            System.out.println("The number is odd");
-//        }
-//        System.out.println("this is the answer");
+        int x = 6;
+        if(x%2 == 0){
+           System.out.println("The number is even");
+        }
+        else{
+          System.out.println("The number is odd");
+        }
+       System.out.println("this is the answer");
 
         //question 02 -- compare two number and check which is greater
        int n1=9;

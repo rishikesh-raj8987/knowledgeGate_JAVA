@@ -13,7 +13,7 @@ public class oprators {
         int mul = a*b;
         float div =a/b;
         float mod = a%b;
-
+// this is used to see the output 
         System.out.println("ADD =" + ADD);
         System.out.println("Multiply = "+ mul);
         System.out.println("div = "+ div);
