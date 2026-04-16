@@ -10,13 +10,13 @@ public class prime_no {
 
         Scanner scn = new Scanner(System.in);
         System.out.println("Enter the number how many time you want to check");
-     int t = scn.nextInt();
-      for (int i = 1; i <= t; i++) {
-        System.out.println("Enter the prime number:- ");
-          int n = scn.nextInt();
-//
-         int count = 0;
-        for (int div = 1; div <= n; div++) {              if (n % div == 0) {
+//      int t = scn.nextInt();
+//       for (int i = 1; i <= t; i++) {
+//         System.out.println("Enter the prime number:- ");
+//           int n = scn.nextInt();
+// //
+//          int count = 0;
+//         for (int div = 1; div <= n; div++) {              if (n % div == 0) {
 //                    count++;
 //                }
 //            }
