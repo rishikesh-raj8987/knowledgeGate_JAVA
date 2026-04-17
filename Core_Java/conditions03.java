@@ -8,6 +8,7 @@ public class conditions03 {
         Scanner scn = new Scanner(System.in);
         System.out.println("Enter the number you want check");
         int n =scn.nextInt();
+        //this is use for checking the number is divi
         if(n != 0){
             if(n % 3 == 0 && n % 5 == 0){
                 System.out.println("3");
