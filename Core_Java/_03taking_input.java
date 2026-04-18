@@ -2,7 +2,7 @@ package Core_Java;
 
 import java.util.Scanner;
 
-public class taking_input {
+public class _03taking_input {
     public static void main(String[] args){
         Scanner scn = new Scanner(System.in);
 
