@@ -9,9 +9,9 @@ public class Q1 {
         System.out.print("Enter the number you want to check:- ");
         int num = scn.nextInt();
         if(num>0){
-            if(num%2 == 0){
+            if(num%2 == 0)
                 System.out.println("Even");
-            }else
+            else
             {
                 System.out.println("Odd");
             }
