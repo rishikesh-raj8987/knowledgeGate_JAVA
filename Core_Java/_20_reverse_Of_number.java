@@ -11,7 +11,7 @@ public class _20_reverse_Of_number {
 
         while(n!=0){
             int dig =n%10;
-             n= n/10;5+
+             n= n/10;
             System.out.print(dig);
         }
 
