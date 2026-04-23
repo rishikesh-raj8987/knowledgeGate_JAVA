@@ -9,10 +9,10 @@ public class Q2 {
         System.out.println("Enter the number you want to check :- ");
         int n = scn.nextInt();
         if(n%5 == 0){
-            System.out.println("The is divisible to 5");
+            System.out.println("The number  is divisible to 5");
         }
         else {
-            System.out.println("the is not divisible");
+            System.out.println("the number  is not divisible");
         }
     }
 }
