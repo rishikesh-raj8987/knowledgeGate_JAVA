@@ -8,11 +8,13 @@ public class Q4 {
         Scanner scn = new Scanner(System.in);
         System.out.print("Enter the real number:- ");
         double n =scn.nextDouble();
-        if(n%10 == 0){
-            System.out.println("The number is integer");
-        }
-        else {
-            System.out.println("The number is not an integer");
-        }
+        int x = (int)n;
+        System.out.println(x);
+//        if(n%10 == 0){
+//            System.out.println("The number is integer");
+//        }
+//        else {
+//            System.out.println("The number is not an integer");
+//        }
     }
 }
