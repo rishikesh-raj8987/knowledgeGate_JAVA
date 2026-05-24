@@ -6,6 +6,7 @@ public class question03 {
 
     public static void main(String [] args){
         Scanner scn = new Scanner(System.in);
+        // write sided * pattern printing
         System.out.println("Enter the number:-  ");
         int n = scn.nextInt();
 //        for(int i = 1; i<=n;i++){
