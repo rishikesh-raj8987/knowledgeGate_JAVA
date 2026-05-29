@@ -21,6 +21,10 @@ public class UserDefineDataType {
         s3.name = "Rohit";
         s3.rno = 77 ;
         s3.cgpa = 6.5;
+
+        System.out.println(s1.name + " " + s1.rno + " " + s1.cgpa);
+        s2.cgpa = 9.8 ;
+        System.out.println(s2.cgpa);
     }
 
 }
