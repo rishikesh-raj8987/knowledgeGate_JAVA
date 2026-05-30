@@ -25,6 +25,8 @@ public class UserDefineDataType {
         System.out.println(s1.name + " " + s1.rno + " " + s1.cgpa);
         s2.cgpa = 9.8 ;
         System.out.println(s2.cgpa);
+        System.out.println(s3.cgpa)
+            System.out.println(s1.cgpa)
     }
 
 }
