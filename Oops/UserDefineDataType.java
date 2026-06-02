@@ -1,11 +1,16 @@
 package Oops;
 
-public class UserDefineDataType {
-    public static class Student{ // khud ka data type bana liye hai /// class
-        String name;
-        int rno;
-        double cgpa;
+
+ class Student{ // khud ka data type bana liye hai /// class
+    String name;
+    int rno;
+    double cgpa;
+    void print(){
+        System.out.println(name+ " " +rno+ " "+ cgpa);
     }
+}
+public class UserDefineDataType {
+
     public static void main (String [] args){   // object
         Student s1 = new Student(); //declaration
         s1.name = "Rishi";

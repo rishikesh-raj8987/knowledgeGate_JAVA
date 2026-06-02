@@ -6,7 +6,7 @@ public class PassingClassesToMethods {
         int seats;
         float lenght;
         float capacity;
-        void print(){
+        void print(){      // this is the methods if the public = then any where we can access it nad if private than not
             System.out.println(name+" " + seats+" "+lenght+" "+ capacity);
         }
 
@@ -17,7 +17,11 @@ public class PassingClassesToMethods {
         c.seats = 4;
         c.lenght = 3;
         c.capacity = 120;
+
+        System.out.println(c.seats);
         c.print();
+
+
 
     }
 }
