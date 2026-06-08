@@ -14,11 +14,11 @@ public class Q10 {
         System.out.println("Enter the third side of triangle:- ");
         int c = scn.nextInt();
 
-        if(a+b>c || b+c>a || c+a>b){
+        if(a+b>c && b+c>a && c+a>b){
             System.out.println("The sides are the triangle");
         }
         else{
         System.out.println("The sides are not the triangle");
-             }
+        }
     }
 }
