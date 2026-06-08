@@ -19,7 +19,7 @@ public class PassingClassesToMethods {
         c.capacity = 120;
 
         System.out.println(c.seats);
-          System.out.println(c.seats + c.length + c.capacity);
+//          System.out.println(c.seats + c.length + c.capacity);
         c.print();
 
 
