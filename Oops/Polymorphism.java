@@ -3,12 +3,12 @@ package Oops;
 public class Polymorphism {
     public static class Dog{
         void speak(){
-            System.out.println("bhau bhau");
+            System.out.println("bhau ");
         }
     }
     public static class Cat{
         void speak(){
-            System.out.println("meow meow ");
+            System.out.println("meow ");
         }
     }
     public static class Lion{
