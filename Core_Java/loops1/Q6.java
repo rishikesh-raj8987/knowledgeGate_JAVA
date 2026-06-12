@@ -8,8 +8,10 @@ public class Q6 {
         Scanner scn = new Scanner(System.in);
         System.out.println("ENter the vlaue of number :- ");
         int n = scn.nextInt();
+        int a =1 , r =2;
         for (int i = 1;i<=n;i++){
-            System.out.println();
+            System.out.println(a);
+            a *= r;
         }
     }
 }
